@@ -9,12 +9,6 @@ import { Post } from '../post.model';
 })
 export class PostListComponent {
 
-    /*posts = [
-        { title : 'First Post', content : 'This is my first post!' },
-        { title : 'Second Post', content : 'This is my second post!' },
-        { title : 'Third Post', content : 'This is my third post!' }
-    ]; */
-
     @Input() posts : Post[] = [];
 
 }
